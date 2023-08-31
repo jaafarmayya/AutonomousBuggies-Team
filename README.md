@@ -9,12 +9,12 @@ The mechanical, electrical, and electronic parts of the vehicle can be found in 
 The codes used to program the vehicle are written in Python and Arduino C.
 ## Sections
 
- - [Models](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Schemes](https://github.com/matiassingers/awesome-readme)
- - [Source](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+ - [Models](#)
+ - [Schemes](#)
+ - [Source](#)
 
-- [Team Photos](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
-- [Vehicle Photos](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+- [Team Photos](#)
+- [Vehicle Photos](#)
 
 
 
