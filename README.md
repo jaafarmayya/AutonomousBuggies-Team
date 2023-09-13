@@ -1,4 +1,5 @@
 
+
 # WRO2023 FUTRE ENGINEERS - Autonomous Robot Vehicle
 
 This is a breif description about the autonomous robot vehicle used by team 'Autonomous Buggies' in the aim of participating in WRO2023 competetion - Future Engineers category. 
@@ -45,3 +46,7 @@ The 10 Sensor were mounted as the following:
 - `FR Sensor` Front Right Sensor - mounted on the edge of the vehicle and tilted by -45 clockwise degrees about the x-axis of the robot.
 Each sensor is fixed into a squared LEGO piece. These Sensors allow the vehicle to well follow the walls, using the equation that will be explained later.
 
+### Power Supply
+Due to the large number of electronic components used in our circuit we used a special power supply distribution using basic electronic components. The following figure illustrates the electrical
+design of the following [circuit](). 
+We used 2 Li-poly RC Batteries (12V – 2200mAh) as a source of power. The first one supplies the Arduino Board, Sensors, Servo motor, and DC motor; the second one supplies the Raspberry pi microprocessor. The robot is power supplied by two batteries as we mentioned before. The distribution of power is done by Three `RioRand` step-down DC-DC Converter that take their input from the batteries directly (12V input) and convert this input to (5V output). The first one supplies the raspberry pi microprocessor and its cooling fan. The second gives supply to a `bridge` which in turn supply the sensors and the gyroscope. The third supplies the servo motor. The DC motor is supplied via BTS motor driver that’s supplied directly from the batteries.
