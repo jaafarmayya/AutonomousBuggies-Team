@@ -42,7 +42,26 @@ We used Ackermann steering and to achieve that a servo motor was installed in wa
 
 ## Power & Sense Management
 ### Electronic Components
-- **Arduino Mega 2560:** The Arduino Mega Board is used to control the DC Motor and the servo motor and receive data from sensor (UltraSonic – MPU). [[2]]() 
+- **Arduino Mega 2560:** The Arduino Mega 2560 is an open-source microcontroller board based on the ATmega2560 microcontroller. It is one of the most popular boards in the Arduino family due to its versatility and extensive I/O capabilities. The Mega 2560 is designed to offer a large number of digital and analog inputs and outputs, making it suitable for complex projects that require multiple sensors, actuators, and communication interfaces. The key features and specifications of the Arduino Mega 2560:
+
+   1. Microcontroller: The Mega 2560 is powered by the ATmega2560 microcontroller, which has 256KB of flash memory for storing code, 8KB of SRAM for data storage, and 4KB of EEPROM for non-volatile storage.
+
+   2. Digital I/O Pins: The board offers 54 digital I/O pins, of which 15 can be used as PWM outputs. These pins can be used for connecting various components such as sensors, switches, LEDs, and other digital devices.
+
+   3. Analog Inputs: The Mega 2560 has 16 analog inputs, allowing you to read analog signals from sensors and other devices. These inputs have a 10-bit resolution, providing 1024 different voltage levels.
+
+   4. Communication Interfaces: The board supports multiple communication interfaces, including UART (Universal Asynchronous Receiver/Transmitter), SPI (Serial Peripheral Interface), and I2C (Inter-Integrated Circuit). These interfaces enable communication with other devices such as sensors, displays, and modules.
+
+   5. USB Interface: The Mega 2560 features a USB interface that allows it to be connected to a computer for programming and serial communication. It can appear as a virtual serial port for easy integration with software development environments.
+
+   6. Operating Voltage: The board operates at 5V, making it compatible with a wide range of sensors, modules, and other components.
+
+   7. Memory Expansion: The Mega 2560 supports external memory expansion through an optional SD card slot, allowing you to store larger amounts of data or log sensor readings.
+
+   8. Compatibility: The Mega 2560 is fully compatible with the Arduino software and programming language, making it easy to get started with coding and prototyping.
+
+   9. Shield Compatibility: The board is designed to be compatible with Arduino shields, which are additional modules that can be stacked on top of the board to extend its functionality. This allows you to easily add features such as Wi-Fi, Bluetooth, motor control, and more. 
+   The Arduino Mega 2560 is widely used in various projects, including robotics, automation, home automation, data logging, and interactive installations. Its extensive I/O capabilities and large memory make it suitable for both beginner and advanced users who require a powerful microcontroller board for their projects. [[2]]() 
 - **Raspberry pi 4 Model B:** The Raspberry pi 4 Microprocessor plays a big role in the decision making. It is used to execute the python code and send data to the Arduino board. These data describe the surrounding environment of the vehicle in order to control the vehicle. [[3]]()
 - **Raspberry pi camera:** The Raspberry pi camera was used to discover the playfield of the robot and to detect the color of the pillars existed in front of the vehicle. [[4]]()
 - **BTS7960 Motor Driver:** The `BTS7960` is a fully integrated high current H bridge module for motor drive applications.[[5]]()
