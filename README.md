@@ -62,7 +62,28 @@ We used Ackermann steering and to achieve that a servo motor was installed in wa
 
    9. Shield Compatibility: The board is designed to be compatible with Arduino shields, which are additional modules that can be stacked on top of the board to extend its functionality. This allows you to easily add features such as Wi-Fi, Bluetooth, motor control, and more. 
    The Arduino Mega 2560 is widely used in various projects, including robotics, automation, home automation, data logging, and interactive installations. Its extensive I/O capabilities and large memory make it suitable for both beginner and advanced users who require a powerful microcontroller board for their projects. [[2]]() 
-- **Raspberry pi 4 Model B:** The Raspberry pi 4 Microprocessor plays a big role in the decision making. It is used to execute the python code and send data to the Arduino board. These data describe the surrounding environment of the vehicle in order to control the vehicle. [[3]]()
+- **Raspberry pi 4 Model B:** The Raspberry Pi 4 Model B is a popular single-board computer (SBC) developed by the Raspberry Pi Foundation. It is the fourth generation of the Raspberry Pi series and offers significant improvements over its predecessors. The Raspberry Pi 4 Model B is designed to be a versatile and affordable platform for various applications, including education, prototyping, home automation, media centers, and more. The key features and specifications of the Raspberry Pi 4 Model B:
+   1. Processor: The board is powered by a Broadcom BCM2711 quad-core Cortex-A72 (ARMv8) 64-bit system-on-a-chip (SoC) running at 1.5 GHz. This processor provides a significant performance boost compared to previous Raspberry Pi models, enabling smoother multitasking and faster execution of applications.
+
+   2. Memory: The Raspberry Pi 4 Model B is available in different memory configurations, including 2GB, 4GB, and 8GB LPDDR4 RAM options. The increased memory capacity allows for better performance, especially when running resource-intensive applications or multitasking.
+
+   1. GPU: It features a VideoCore VI GPU, which supports OpenGL ES 3.x and 4Kp60 hardware decode of HEVC video. The GPU enables multimedia applications, gaming, and hardware-accelerated video playback.
+
+   1. Connectivity: The board offers improved connectivity options, including:
+     * Gigabit Ethernet: Provides fast wired network connectivity.
+
+     * Dual-band Wi-Fi: Supports 2.4 GHz and 5 GHz wireless networks, offering improved wireless performance.
+     * Bluetooth 5.0: Enables wireless connectivity with Bluetooth-enabled devices.
+     * USB Ports: The Raspberry Pi 4 Model B has two USB 2.0 ports and two USB 3.0 ports, allowing for easy connection of peripherals such as keyboards, mice, external drives, and more.
+   5. Video and Display: The Raspberry Pi 4 Model B supports dual-monitor output with resolutions up to 4K. It features two micro HDMI ports, allowing you to connect two displays simultaneously. The board also has a MIPI DSI display port and a MIPI CSI camera port for connecting touchscreens and cameras.
+
+   1. Storage: It includes a microSD card slot for the operating system and data storage. Additionally, it has two USB 3.0 ports and two USB 2.0 ports, which can be used to connect external storage devices such as hard drives or USB flash drives.
+
+   1. GPIO Pins: The board maintains compatibility with previous Raspberry Pi models and provides 40 GPIO (General Purpose Input/Output) pins, which allow for the connection of various sensors, actuators, and other electronic components.
+
+   1. Operating System: The Raspberry Pi 4 Model B is compatible with a wide range of operating systems, including Linux distributions such as Raspbian (now known as Raspberry Pi OS), Ubuntu, and others. This flexibility enables developers to choose the OS that best suits their needs and leverage the extensive software ecosystem available for the Raspberry Pi.
+
+The Raspberry Pi 4 Model B offers significant improvements in terms of performance, memory, connectivity, and multimedia capabilities compared to its predecessors. Its affordability and versatility make it a popular choice for a wide range of projects, from hobbyist tinkering to professional applications. [[3]]()
 - **Raspberry pi camera:** The Raspberry pi camera was used to discover the playfield of the robot and to detect the color of the pillars existed in front of the vehicle. [[4]]()
 - **BTS7960 Motor Driver:** The `BTS7960` is a fully integrated high current H bridge module for motor drive applications.[[5]]()
 - **3 RioRand LM2596 step-down DC-DC Converter:** DC-DC Buck Converter Step Down Module `LM2596` Power Supply is a step-down(buck) switching regulator, capable of driving a 3-A load with excellent line and load regulation. We used the fixed output 5V. [ [6]]()
