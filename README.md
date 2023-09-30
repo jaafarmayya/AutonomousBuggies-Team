@@ -60,8 +60,7 @@ We used Ackermann steering and to achieve that a servo motor was installed in wa
 
    8. Compatibility: The Mega 2560 is fully compatible with the Arduino software and programming language, making it easy to get started with coding and prototyping.
 
-   9. Shield Compatibility: The board is designed to be compatible with Arduino shields, which are additional modules that can be stacked on top of the board to extend its functionality. This allows you to easily add features such as Wi-Fi, Bluetooth, motor control, and more. 
-   The Arduino Mega 2560 is widely used in various projects, including robotics, automation, home automation, data logging, and interactive installations. Its extensive I/O capabilities and large memory make it suitable for both beginner and advanced users who require a powerful microcontroller board for their projects. [[2]]() 
+   9. Shield Compatibility: The board is designed to be compatible with Arduino shields, which are additional modules that can be stacked on top of the board to extend its functionality. This allows you to easily add features such as Wi-Fi, Bluetooth, motor control, and more.  [[2]]() 
 - **Raspberry pi 4 Model B:** The Raspberry Pi 4 Model B is a popular single-board computer (SBC) developed by the Raspberry Pi Foundation. It is the fourth generation of the Raspberry Pi series and offers significant improvements over its predecessors. The Raspberry Pi 4 Model B is designed to be a versatile and affordable platform for various applications, including education, prototyping, home automation, media centers, and more. The key features and specifications of the Raspberry Pi 4 Model B:
    1. Processor: The board is powered by a Broadcom BCM2711 quad-core Cortex-A72 (ARMv8) 64-bit system-on-a-chip (SoC) running at 1.5 GHz. This processor provides a significant performance boost compared to previous Raspberry Pi models, enabling smoother multitasking and faster execution of applications.
 
@@ -81,12 +80,46 @@ We used Ackermann steering and to achieve that a servo motor was installed in wa
 
    1. GPIO Pins: The board maintains compatibility with previous Raspberry Pi models and provides 40 GPIO (General Purpose Input/Output) pins, which allow for the connection of various sensors, actuators, and other electronic components.
 
-   1. Operating System: The Raspberry Pi 4 Model B is compatible with a wide range of operating systems, including Linux distributions such as Raspbian (now known as Raspberry Pi OS), Ubuntu, and others. This flexibility enables developers to choose the OS that best suits their needs and leverage the extensive software ecosystem available for the Raspberry Pi.
-
-The Raspberry Pi 4 Model B offers significant improvements in terms of performance, memory, connectivity, and multimedia capabilities compared to its predecessors. Its affordability and versatility make it a popular choice for a wide range of projects, from hobbyist tinkering to professional applications. [[3]]()
+   1. Operating System: The Raspberry Pi 4 Model B is compatible with a wide range of operating systems, including Linux distributions such as Raspbian (now known as Raspberry Pi OS), Ubuntu, and others. This flexibility enables developers to choose the OS that best suits their needs and leverage the extensive software ecosystem available for the Raspberry Pi. [[3]]()
 - **Raspberry pi camera:** The Raspberry pi camera was used to discover the playfield of the robot and to detect the color of the pillars existed in front of the vehicle. [[4]]()
-- **BTS7960 Motor Driver:** The `BTS7960` is a fully integrated high current H bridge module for motor drive applications.[[5]]()
-- **3 RioRand LM2596 step-down DC-DC Converter:** DC-DC Buck Converter Step Down Module `LM2596` Power Supply is a step-down(buck) switching regulator, capable of driving a 3-A load with excellent line and load regulation. We used the fixed output 5V. [ [6]]()
+- **BTS7960 Motor Driver:** The BTS7960 Motor Driver is a popular dual H-bridge motor driver module that allows you to control the speed and direction of DC motors. It is commonly used in robotics, automation, and other projects that require precise motor control.
+
+   The key features and specifications of the BTS7960 Motor Driver:
+
+   1. H-Bridge Configuration: The BTS7960 Motor Driver utilizes an H-bridge configuration, which consists of four power MOSFETs (Metal-Oxide-Semiconductor Field-Effect Transistors) arranged in pairs. This configuration enables bidirectional control of the motor, allowing you to control its rotation in forward and reverse directions.
+
+   2. Motor Compatibility: The motor driver module is designed to work with DC motors and can handle a wide range of motor voltages, typically between 5V and 27V. The maximum continuous current per channel is typically around 43A, making it suitable for driving high-power motors.
+
+   3. Current Sensing: The BTS7960 Motor Driver features built-in current sensing capabilities. It has two current sense pins that allow you to monitor the current flowing through each motor channel. This feature can be useful for various purposes, such as implementing motor current protection or feedback control.
+
+   4. PWM Control: The motor driver supports Pulse Width Modulation (PWM) control for speed regulation. By varying the duty cycle of the PWM signal, you can adjust the motor's speed precisely. The module accepts a PWM input signal from a microcontroller or any other PWM source.
+
+   5. Overcurrent and Overtemperature Protection: The BTS7960 Motor Driver incorporates protection mechanisms to safeguard both the driver and the motor. It includes built-in overcurrent and overtemperature protection circuits that can help prevent damage to the motor driver module and the connected motor.
+
+   6. Input and Output Connections: The motor driver module typically has separate input pins for controlling the motor direction and speed. These control pins can be connected to the digital output pins of a microcontroller or other control devices. The motor connections are made to the driver's output terminals, allowing you to connect the DC motor.
+
+   7. Heat Dissipation: Due to its high current handling capacity, the BTS7960 motor driver may generate heat during operation. To dissipate heat effectively, the module often includes a heat sink or a mounting hole for attaching an external heat sink.
+
+   8. Compatibility: The BTS7960 Motor Driver can be used with various microcontrollers, such as Arduino, Raspberry Pi, or any other microcontroller capable of generating the necessary control signals for the driver module.[[5]]()
+- **3 RioRand LM2596 step-down DC-DC Converter:** The RioRand LM2596 is a popular step-down DC-DC converter module based on the LM2596 switching regulator integrated circuit. It is commonly used to convert higher DC voltages to lower, more stable voltages for various electronic applications. The LM2596 module offers efficient and adjustable voltage regulation, making it widely used in projects requiring reliable power supply solutions.
+
+  The key features and specifications of the RioRand LM2596 step-down DC-DC converter:
+
+   1. Conversion Efficiency: The LM2596 module utilizes a switching regulator topology, which provides high conversion efficiency compared to linear regulators. It can achieve conversion efficiencies of up to 90% or more, depending on the input and output voltage differentials.
+
+   2. Input Voltage Range: The LM2596 module can accept a wide range of input voltages, typically between 4.5V and 40V DC. This flexibility allows it to be used with various power sources, such as batteries, power adapters, or other DC power supplies.
+
+   3. Adjustable Output Voltage: One of the key features of the LM2596 module is its ability to provide adjustable output voltage. By adjusting the onboard potentiometer or using an external voltage divider, you can set the desired output voltage within the module's specified range. The output voltage can typically be adjusted from around 1.25V to 37V DC.
+
+   4. Output Current: The LM2596 module can handle a maximum output current of around 2A or more, depending on the specific module variant and configuration. This current rating determines the maximum load current that the module can reliably supply.
+
+   5. Protection Features: The LM2596 module often includes built-in protection features to ensure the safety and longevity of the circuit. These features may include overcurrent protection, thermal shutdown, and input/output overvoltage protection.
+
+   6. Heat Dissipation: Like other power electronics components, the LM2596 module may generate heat during operation. To dissipate heat effectively and maintain optimal performance, the module typically includes a heat sink or a mounting hole for attaching an external heat sink.
+
+  7. Input and Output Connections: The LM2596 module typically has screw terminals or pin headers for easy connection to the input and output voltage sources. The input voltage is connected to the higher voltage source, while the output voltage is connected to the load or the circuit that requires the lower voltage supply.
+
+   8. Applications: The LM2596 module finds applications in a wide range of projects, including electronics prototyping, DIY projects, power supply modules, battery charging systems, LED lighting, and more. Its adjustable output voltage and high efficiency make it a versatile choice for powering various electronic devices and circuits. [ [6]]()
 * **Servo Motor:** [[7]]()
   + Torque: 1,6kgcm
   + Stall current 650±80mA
@@ -96,7 +129,19 @@ The Raspberry Pi 4 Model B offers significant improvements in terms of performan
   + Length 22 mm
   + Width 11,5 mm
   + Height 22,5 mm Weight 16 g 
-- **2 Li-Po RC Batteries 12V:**  Lithium Polymer (Li-Po) batteries are a type of rechargeablebattery that are widely used in remote control cars (RCC) due to their high energy density,lightweight, and ability to deliver high currents. The 12V **2200mAh** Li-Po battery is a popular choice for powering remote control vehicles because it provides a good balance between capacity and weight.[[8]]()
+- **2 Li-Po RC Batteries 12V:** Li-Po (Lithium Polymer) RC batteries are commonly used in remote control (RC) vehicles, drones, and other hobbyist applications that require a compact and high-capacity power source. While Li-Po batteries are typically available in various cell configurations and voltages, a 12V Li-Po RC battery is not a standard configuration. However, it is possible to create a 12V power supply by combining certain Li-Po battery configurations.
+
+   Li-Po batteries are usually rated based on their nominal voltage per cell, which is typically 3.7V. The most common Li-Po battery configurations are:
+
+      1. 1S: This configuration consists of a single Li-Po cell with a nominal voltage of 3.7V. A 1S Li-Po battery alone cannot provide 12V.
+
+      2. 2S: This configuration consists of two Li-Po cells connected in series, resulting in a nominal voltage of 7.4V (2 cells * 3.7V per cell). Two 2S Li-Po batteries connected in series can provide a combined voltage of 14.8V, which is higher than 12V.
+
+  To achieve a 12V supply using Li-Po batteries, you would need to consider alternative configurations, such as:
+
+   - 3S + 1S: Connect a 3S Li-Po battery (11.1V) in series with a 1S Li-Po battery (3.7V) to achieve a combined voltage of 14.8V. Then use a voltage regulator or step-down converter to regulate the voltage down to 12V.
+
+   - 4S: Use a 4S Li-Po battery (14.8V) and regulate the voltage down to 12V using a voltage regulator or step-down converter.[[8]]()
 - **J Sumo DC Motor:** [[1]]()
   - The diameter of the motor is 37mm. Length is 75mm.
   - 6mm diameter shaft section, shaft length 17 mm.
@@ -105,9 +150,45 @@ The Raspberry Pi 4 Model B offers significant improvements in terms of performan
   - All Gearhead gears are metal.
   - Motor’s stall torque is 7.5 kg-cm.
 
-- **MPU 6050:**  The MPU6050 is a Micro Electro-Mechanical Systems (MEMS) which consists of a 3-axis Accelerometer and 3-axis Gyroscope inside it. This helps us to measure acceleration, velocity, orientation, displacement and many other motions related parameter of a system or object. We used it to measure the yaw of the robot while certain rotations. [[9]]()
+- **MPU 6050:** The MPU-6050 is a popular and widely used integrated circuit (IC) that combines a 3-axis gyroscope and a 3-axis accelerometer in a single package. It is commonly used in various applications such as motion sensing, orientation tracking, gesture recognition, and stabilization control systems.
+
+  The key features and specifications of the MPU-6050:
+
+      1. 3-Axis Gyroscope: The MPU-6050 includes a 3-axis gyroscope, which measures angular velocity around three axes (X, Y, and Z). It provides accurate motion sensing capabilities and can be used to detect rotational movements.
+
+      2. 3-Axis Accelerometer: The MPU-6050 also incorporates a 3-axis accelerometer, which measures linear acceleration along the three axes (X, Y, and Z). It enables the detection of changes in velocity and the determination of tilt or inclination.
+
+      3. Digital Motion Processing: The MPU-6050 features an onboard digital motion processor (DMP) that offloads motion processing tasks from the main microcontroller. The DMP performs sensor fusion, combining data from the gyroscope and accelerometer to provide accurate and reliable motion tracking information.
+
+      4. I2C Interface: The MPU-6050 communicates with the microcontroller or other devices using the I2C (Inter-Integrated Circuit) protocol. It has an I2C interface that allows for easy integration and control with various microcontrollers and development boards.
+
+      5. Motion Detection Interrupts: The MPU-6050 includes built-in motion detection capabilities and supports programmable interrupts. This allows the IC to generate interrupts to the microcontroller when predefined motion or orientation thresholds are met, enabling efficient and responsive operation.
+
+      6. Low Power Consumption: The MPU-6050 is designed to operate with low power consumption, making it suitable for battery-powered applications and devices with power constraints.
+
+      7. Temperature Sensor: The IC incorporates an onboard temperature sensor, providing accurate temperature measurements in addition to motion and orientation data.
+
+      8. Applications: The MPU-6050 is widely used in applications such as robotics, drones, gaming controllers, virtual reality (VR) and augmented reality (AR) devices, inertial navigation systems, motion-controlled user interfaces, and many other projects where motion sensing and orientation tracking are required. [[9]]()
 - **Cooling Fan:** The cooling fan is used to cool down the temperature of the Raspberry pi microprocessor.
-- **10 UltraSonic Sensors:** [[10]]() The 10 Sensor were mounted as the following:
+- **10 UltraSonic Sensors:**
+  Ultrasonic sensors are electronic devices that use ultrasonic waves to measure distance or detect objects. They work based on the principle of echolocation, similar to how bats navigate in the dark. Ultrasonic sensors emit high-frequency sound waves (typically above the range of human hearing) and then receive the reflected waves to determine the distance or presence of objects.
+
+  The key characteristics and applications of ultrasonic sensors:
+
+      1. Distance Measurement: Ultrasonic sensors are commonly used for non-contact distance measurement. They typically emit ultrasonic pulses and measure the time it takes for the sound waves to bounce back after hitting an object. By knowing the speed of sound in the medium (usually air), the sensor can calculate the distance to the object.
+
+      2. Object Detection: Ultrasonic sensors can detect the presence or absence of objects within their range. When an object is detected, the sensor receives the reflected sound waves, and based on the intensity or time delay of the received signal, it can determine if an object is present or not.
+
+      3. Range and Accuracy: Ultrasonic sensors can have varying range capabilities, typically ranging from a few centimeters to several meters. The accuracy of distance measurement depends on factors such as the sensor's resolution, beam angle, and environmental conditions.
+
+      4. Ultrasonic Transducer: The core component of an ultrasonic sensor is the transducer, which converts electrical energy into ultrasonic sound waves and vice versa. It consists of a piezoelectric crystal that vibrates when an electrical current is applied, generating the ultrasonic waves.
+
+      5. Beam Pattern: Ultrasonic sensors emit sound waves in a specific beam pattern, usually conical or cylindrical. The beam angle determines the width of the detection area. Narrower beam angles provide more focused sensing, while wider angles cover a larger area but with reduced accuracy.
+
+      6. Environmental Considerations: Ultrasonic sensors are affected by environmental factors such as temperature, humidity, and air turbulence. These factors can influence the speed of sound and affect the accuracy of distance measurements.
+
+      7. Applications: Ultrasonic sensors are widely used in various fields, including industrial automation, robotics, automotive, security systems, level monitoring, parking assistance, liquid flow measurement, and presence detection in consumer electronics.[[10]]() 
+The 10 Sensor were mounted as the following:
   - `L1` Sensor Left Front (Closer to the frontend of the robot).
   - `L2` Sensor Left Back (Closer to the backend of the robot).
   - `R1` Sensor Right Front (Closer to the Frontend of the robot).
@@ -122,3 +203,19 @@ The Raspberry Pi 4 Model B offers significant improvements in terms of performan
 
 
 
+
+#### Computer Vision
+How the robot recognizes the surrounding area?
+We developed a Python script that uses computer vision techniques to detect the presence of a
+red or green pillar in front of a camera. The script captures video frames from a camera using the
+OpenCV library, processes each frame to isolate regions that match the color of a red or green
+pillar, and then applies contour detection to identify the location and size of the detected region.
+Here is a brief explanation of the code:
+* The script imports several libraries, including OpenCV, NumPy, time, and serial.
+* It initializes a serial connection to communicate with an external device.
+* It initializes the camera capture using OpenCV’s VideoCapture function.
+* It sets up the color ranges for the red and green pillars in the HSV color space using NumPy arrays.
+* It enters a loop that captures frames from the camera, processes them, and detects the presence of a red or green pillar in each frame.
+* The loop extracts a region of interest from the frame, applies a mask to isolate the pixels that match the color range of the red or green pillar, and performs morphological operations to remove noise from the binary mask.
+* The script then applies contour detection to find the contours of the identified regions. The contour with the largest area is selected to represent the detected object.
+* The script calculates the distance to the detected object based on its area, and It sends signals as commands based on the image processing results to the Arduino using serial communication (The signals depend on the color and distance of the detected object).
