@@ -85,7 +85,7 @@ T<sub>wheels</sub> can be calculated by multiplying the applied force by servo m
 
 
 ![Steering Wheel Torque](http://www.sciweavers.org/tex2img.php?eq=%20T_%7Bwheels%7D%20%3D%20F_%20%7Bservo%7D%20%20%5Ctimes%20L_%20%7Beff%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
-<img src="http://www.sciweavers.org/tex2img.php?eq=%20T_%7Bwheels%7D%20%3D%20F_%20%7Bservo%7D%20%20%5Ctimes%20L_%20%7Beff%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" />
+
 When interpreting the steering wheel torque, it should be noted that a higher steering wheel torque indicates that more force is needed from the servo motor to turn the steering wheel, providing a greater resistance to steering. Conversely, a lower steering wheel torque implies that less force is required, resulting in lighter and easier steering.
 
 **3. Steering Wheel angle**
