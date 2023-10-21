@@ -73,7 +73,7 @@ Mathematically speaking, it is defined as the ratio of the angle turned by the s
 to the angle turned by the wheels θ<sub>wheels</sub> 
 It can be expressed as:
 
-![Steering Ratio Formula](http://www.sciweavers.org/tex2img.php?eq=Steering%20Ratio%20%3D%20%20%20%20%5Cfrac%7B%5Ctheta%20_%7Bservo%7D%7D%7B%7B%5Ctheta%20_%7Bwheels%7D%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+![Steering Ratio ](http://www.sciweavers.org/tex2img.php?eq=Steering%20Ratio%20%3D%20%20%20%20%5Cfrac%7B%5Ctheta%20_%7Bservo%7D%7D%7B%7B%5Ctheta%20_%7Bwheels%7D%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 
 The steering ratio determines how much the wheels will turn in response to a given rotation of the servo. A higher steering ratio means that a smaller rotation of the steering wheel will result in a larger rotation of the wheels, providing a greater turning effect. Conversely, a lower steering ratio means that a larger rotation of the steering wheel is required to achieve the same wheel rotation. So, it can be described as a measure of the sensitivity and responsiveness of the steering system.
 
@@ -84,7 +84,7 @@ is the influence of servo motor force or moment applied on the steering. In othe
 T<sub>wheels</sub> can be calculated by multiplying the applied force by servo motor F<sub>servo</sub> by the effective lever arm or steering arm length L<sub>eff</sub> which is the distance between the point where the force is applied and the axis of rotation of the steering wheel: 
 
 
-![Steering Ratio Formula](http://www.sciweavers.org/tex2img.php?eq=%20T_%7Bwheels%7D%20%3D%20F_%20%7Bservo%7D%20%20%5Ctimes%20L_%20%7Beff%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+![Steering Wheel Torque](http://www.sciweavers.org/tex2img.php?eq=%20T_%7Bwheels%7D%20%3D%20F_%20%7Bservo%7D%20%20%5Ctimes%20L_%20%7Beff%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 
 When interpreting the steering wheel torque, it should be noted that a higher steering wheel torque indicates that more force is needed from the servo motor to turn the steering wheel, providing a greater resistance to steering. Conversely, a lower steering wheel torque implies that less force is required, resulting in lighter and easier steering.
 
