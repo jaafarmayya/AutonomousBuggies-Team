@@ -83,6 +83,7 @@ Steering wheel torque T<sub>wheels</sub>
 is the influence of servo motor force or moment applied on the steering. In other words, it refers to the force or moment applied to the wheels as a result of the torque output from the servo motor.
 T<sub>wheels</sub> can be calculated by multiplying the applied force by servo motor F<sub>servo</sub> by the effective lever arm or steering arm length L<sub>eff</sub> which is the distance between the point where the force is applied and the axis of rotation of the steering wheel: 
 
+
 ![Steering Ratio Formula](http://www.sciweavers.org/tex2img.php?eq=%20T_%7Bwheels%7D%20%3D%20F_%20%7Bservo%7D%20%20%5Ctimes%20L_%20%7Beff%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 
 When interpreting the steering wheel torque, it should be noted that a higher steering wheel torque indicates that more force is needed from the servo motor to turn the steering wheel, providing a greater resistance to steering. Conversely, a lower steering wheel torque implies that less force is required, resulting in lighter and easier steering.
@@ -92,7 +93,7 @@ When interpreting the steering wheel torque, it should be noted that a higher st
 The steering wheel angle refers to the angle of rotation of the servo motor's output shaft, which is directly connected to the steering mechanism of the robot. Furthermore, it represents the angular displacement of the servo motor's output shaft from its neutral or reference position. 
 This angle determines the orientation of the robot's steering mechanism and thus influences the robot's movement and direction.
 
-![Steering Ratio Formula](http://www.sciweavers.org/tex2img.php?eq=%20%5Ctheta_%7Bwheel%7D%20%3D%20%5Ctheta_%7Bwheel%7D%20%20%5Ctimes%20SteeringRatio&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+![Steering Ratio Formul](http://www.sciweavers.org/tex2img.php?eq=%20%5Ctheta_%7Bwheel%7D%20%3D%20%5Ctheta_%7Bwheel%7D%20%20%5Ctimes%20SteeringRatio&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 
 
 ### Differential Gear
