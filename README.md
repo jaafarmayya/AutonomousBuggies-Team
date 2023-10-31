@@ -23,11 +23,11 @@ handling different configurations of the obstacles. The code is divided into two
 Before using the robot, software should be configured first, you will need to install the following (Programs have been tested and configured with both Windows 10 and Windows 11 operating systems. In case of using another operating system, we strongly recommend using any available searching engine to search for the installation for the software by yourself).
 We'll be using Raspberry Pi to run image processing code written in python programming language. Commands will be sent via Serial communication to arduino wich will control the motors.
 
-###Raspberry Pi Preparation and Configuration
+### Raspberry Pi Preparation and Configuration
 In this section, we will go through all the steps to prepare and configure your Raspberry Pi. After completing the steps, you will be able to access your Raspberry Pi remotely and control it.
-####Raspberry Pi Operating System 
+#### Raspberry Pi Operating System 
 There are a lot of OS systems for Raspberry Pi with different versions. You can choose any of them from [official site](https://www.raspberrypi.com/software/operating-systems/), but it is preferable to install the same version we installed since it is tested and it works fine ([download link](https://downloads.raspberrypi.com/raspios_full_arm64/images/raspios_full_arm64-2023-02-22/2023-02-21-raspios-bullseye-arm64-full.img.xz)).
-####Raspberry Pi Imager installation
+#### Raspberry Pi Imager installation
 You will be setting up Raspberry Pi OS on your Raspberry Pi using the Raspberry Pi Imager tool, it will allow you to flash the image onto a USB flash drive. The provided steps cover the installation process, initial configuration, and essential steps to get your Raspberry Pi up and running. 
 Using the Raspberry Pi Imager tool to flash the Raspberry Pi OS image onto a USB flash drive offers a convenient and efficient way to set up your Raspberry Pi. The Imager simplifies the installation process by providing a user-friendly interface to select the operating system and target storage medium. With just a few clicks, you can download the official Raspberry Pi OS image and write it directly to the USB flash drive. This eliminates the need for manual installation and configuration, saving you time and effort.
 - To install Raspberry Pi Imager, Visit the official Raspberry Pi website at https://www.raspberrypi.org/software/.
