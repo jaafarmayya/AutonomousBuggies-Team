@@ -1033,7 +1033,7 @@ To transition from a counterclockwise (CCW) to a clockwise (CW) direction, the f
 
 - Continue moving in reverse until the rear distance sensor detects a distance less than 10cm.
 
-----
+---
 ###Conclusion
 In conclusion, the autonomous vehicle we created for successfully solved the problems proposed in the WRO 2023 Future Engineers Category (Open Challenge - Obstacle Challenge) with the integration of mechanical and mathematical engineering principles, programming, and computer vision.  The advanced programming, real-time decision-making and computer vision algorithms enabled the vehicle to plan paths and make informed choices leading to a vehicle can navigate autonomously, aligning with the goal of connecting the world. Finally, the algorithm can improved to solve the tasks in shorter time and this project paves the way for further advancements and underscores the potential for a more connected world through innovative engineering solutions.
 
