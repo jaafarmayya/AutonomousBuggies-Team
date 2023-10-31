@@ -2,14 +2,14 @@
 # WRO2023 FUTRE ENGINEERS - Autonomous Robot Vehicle
 
 This repository presents a detailed description about the autonomous robot vehicle used by team 'Autonomous Buggies' in the aim of participating in WRO2023 competetion - Future Engineers category. 
-The mechanical, electrical, and electronic parts of the vehicle are well described and provided. The sourcec codes used to program the vehicle are written in Python and Arduino C. Additionally, a detailed explanation of the algorithms and mathematical principles is provided to help everyone learn. All these details can be found the sections listed below:
+The mechanical, electrical, and electronic parts of the vehicle are well described and provided. The source codes used to program the vehicle are written in Python and Arduino C. Additionally, a detailed explanation of the algorithms and mathematical principles is provided to help everyone learn. All these details can be found the sections listed below:
 
 ---
 
 ## Introduction
 
 This Repository contains all necessary information to entirely build a self driving car, which is capable of completing three laps and
-handling different configurations of the obstacles. The code is divided into two main parts, one written with python programming language, which is responsible for image processing and sending made decision to the arduino via Serial communication ([Python code](https://github.com/jaafarmayya/AutonomousBuggies-Team/blob/main/src/Obstacle%20Challenge/Computer%20Vision%20-%20Serial%20Connection.py)). And one written with Arduino C programming language, which is responsible for controlling the motors movement based on the different sensors reading and recieved decision ([Arduino code](https://github.com/jaafarmayya/AutonomousBuggies-Team/tree/main/src)). The rest of the readme.md file explains in deteails each of the following:
+handling different configurations of the obstacles. The code is divided into two main parts, one written with python programming language, which is responsible for image processing and sending made decision to the arduino via Serial communication ([Python code](https://github.com/jaafarmayya/AutonomousBuggies-Team/tree/main/src/Obstacle%20Challenge/Python)). And one written with Arduino C programming language, which is responsible for controlling the motors movement based on the different sensors reading and recieved decision ([Arduino code](https://github.com/jaafarmayya/AutonomousBuggies-Team/tree/main/src)). The rest of the readme.md file explains in deteails each of the following:
 
 - [Software Setup](#SoftwareSetup)
 - [Mobility Management](#MobilityManagement)
