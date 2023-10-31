@@ -377,12 +377,12 @@ the Arduino Board, Sensors, Servo motor, and DC motor; the second one supplies t
 
    1. Operating System: The Raspberry Pi 4 Model B is compatible with a wide range of operating systems, including Linux distributions such as Raspbian (now known as Raspberry Pi OS), Ubuntu, and others. This flexibility enables developers to choose the OS that best suits their needs and leverage the extensive software ecosystem available for the Raspberry Pi. 
     
-     ![RaspberryPi](/Documentation/Images/PowerAndSense/RaspberryPi.jpg =300x)
+     ![RaspberryPi](/Documentation/Images/PowerAndSense/RaspberryPi.jpg)
   <p Style="font-size:12px; color:grey; font-type:italic;"><i> Figure 27: RaspberryPi</i></p>
 
 - **Raspberry pi camera:** [[4]](https://www.raspberrypi.com/products/camera-module-v2/) The Raspberry pi camera was used to discover the playfield of the robot and to detect the color of the pillars existed in front of the vehicle. 
 
-     ![PiCamera](/Documentation/Images/PowerAndSense/Camera.jpg =300x)
+     ![PiCamera](/Documentation/Images/PowerAndSense/Camera.jpg)
   <p Style="font-size:12px; color:grey; font-type:italic;"><i> Figure 28: RaspberryPi Camera</i></p>
 
 - **BTS7960 Motor Driver:** [[5]](https://uk.farnell.com/c/sensors-transducers/sensors/ultrasonic-sensors)
@@ -405,7 +405,7 @@ the Arduino Board, Sensors, Servo motor, and DC motor; the second one supplies t
 
     **viii.Compatibility:** The BTS7960 Motor Driver can be used with various microcontrollers, such as Arduino, Raspberry Pi, or any other microcontroller capable of generating the necessary control signals for the driver module.
     
-     ![BTS7960](/Documentation/Images/PowerAndSense/BTS7960.jpg =300x)
+     ![BTS7960](/Documentation/Images/PowerAndSense/BTS7960.jpg)
   <p Style="font-size:12px; color:grey; font-type:italic;"><i> Figure 29: BTS7960 Motor Driver</i></p>
 
 - **L298N Motor Driver:**
@@ -429,7 +429,7 @@ the Arduino Board, Sensors, Servo motor, and DC motor; the second one supplies t
 
     **viii.Compatibility:** The L298N Motor Driver is compatible with various microcontrollers, including Arduino, Raspberry Pi, and other microcontrollers capable of generating the necessary control signals for the driver module.
   
-  ![L298N](/Documentation/Images/PowerAndSense/L298N.jpg =300x)
+  ![L298N](/Documentation/Images/PowerAndSense/L298N.jpg)
   <p Style="font-size:12px; color:grey; font-type:italic;"><i> Figure 30: L298N Motor Driver</i></p>
 - **Comparison between L298N and BTS7960:**
 
@@ -464,7 +464,7 @@ the Arduino Board, Sensors, Servo motor, and DC motor; the second one supplies t
 
    8. Applications: The LM2596 module finds applications in a wide range of projects, including electronics prototyping, DIY projects, power supply modules, battery charging systems, LED lighting, and more. Its adjustable output voltage and high efficiency make it a versatile choice for powering various electronic devices and circuits. 
  
- ![Dc2Dc converter](/Documentation/Images/PowerAndSense/DcDcConv.jpg =300x)
+ ![Dc2Dc converter](/Documentation/Images/PowerAndSense/DcDcConv.jpg)
   <p Style="font-size:12px; color:grey; font-type:italic;"><i> Figure 31: RioRand  LM2596 step-down DC-DC Converter</i></p>
 
 * **Servo Motor:** [[7]](https://www.towerpro.com.tw/product/sg90-7/)
@@ -477,7 +477,7 @@ the Arduino Board, Sensors, Servo motor, and DC motor; the second one supplies t
   + Width 11,5 mm
   + Height 22,5 mm Weight 16 g 
 
-     ![Servo](/Documentation/Images/PowerAndSense/Sg.webp =300x)
+     ![Servo](/Documentation/Images/PowerAndSense/Sg.webp)
   <p Style="font-size:12px; color:grey; font-type:italic;"><i> Figure 32: Servo Motor</i></p>
 - **Li-Po RC Batteries 12V:** [[8]](https://robocraze.com/products/11-1v-2200mah-25c-li-po-battery) Lithium Polymer (Li-Po) batteries are a type of rechargeable battery that are widely used due to their high energy density, lightweight, and ability to deliver high currents. It provides a good balance between capacity and weight.
 
@@ -491,7 +491,7 @@ the Arduino Board, Sensors, Servo motor, and DC motor; the second one supplies t
   | Weight                | 140g                                  |
   <p Style="font-size:12px; color:grey; font-type:italic;"><i> Table 2: LiPo Battery Specifications </i></p>
 
-  ![Lithium Polymer (Li-Po)](/Documentation/Images/PowerAndSense/Lipo(1).jpg =300x)
+  ![Lithium Polymer (Li-Po)](/Documentation/Images/PowerAndSense/Lipo(1).jpg)
   <p Style="font-size:12px; color:grey; font-type:italic;"><i> Figure 33: LiPo 2800mAh Battery</i></p>
 
 - **J Sumo DC Motor:** [[1]](https://www.jsumo.com/jsumo-titan-dc-gearhead-motor-12v-1000-rpm-hp)
@@ -502,7 +502,7 @@ the Arduino Board, Sensors, Servo motor, and DC motor; the second one supplies t
   - All Gearhead gears are metal.
   - Motor’s stall torque is 7.5 kg-cm.
 
-     ![Dc](/Documentation/Images/PowerAndSense/jSumo.jpg =300x)
+     ![Dc](/Documentation/Images/PowerAndSense/jSumo.jpg)
   <p Style="font-size:12px; color:grey; font-type:italic;"><i> Figure 34: jSumo Dc Motor</i></p>
 
 - **MPU 6050:** [[9]](https://www.electronicwings.com/sensors-modules/mpu6050-gyroscope-accelerometer-temperature-sensor-module) The MPU-6050 is a popular and widely used integrated circuit (IC) that combines a 3-axis gyroscope and a 3-axis accelerometer in a single package. It is commonly used in various applications such as motion sensing, orientation tracking, gesture recognition, and stabilization control systems.
@@ -525,12 +525,12 @@ the Arduino Board, Sensors, Servo motor, and DC motor; the second one supplies t
 
     8. Applications: The MPU-6050 is widely used in applications such as robotics, drones, gaming controllers, virtual reality (VR) and augmented reality (AR) devices, inertial navigation systems, motion-controlled user interfaces, and many other projects where motion sensing and orientation tracking are required. 
 
-     ![Mpu6050](/Documentation/Images/PowerAndSense/mpu6050.jpg =300x)
+     ![Mpu6050](/Documentation/Images/PowerAndSense/mpu6050.jpg)
   <p Style="font-size:12px; color:grey; font-type:italic;"><i> Figure 35: MPU6050</i></p>
 
 - **Cooling Fan:** The cooling fan is used to cool down the temperature of the Raspberry pi microprocessor.
 
-     ![Cooling Fan](/Documentation/Images/PowerAndSense/CoolingFan.jpg =300x)
+     ![Cooling Fan](/Documentation/Images/PowerAndSense/CoolingFan.jpg)
   <p Style="font-size:12px; color:grey; font-type:italic;"><i> Figure 36: Cooling Fan</i></p>
 
 - **UltraSonic Sensors:** [[10]](https://uk.farnell.com/c/sensors-transducers/sensors/ultrasonic-sensors)
@@ -564,7 +564,7 @@ The 10 Sensor were mounted as the following:
  - `FL` Sensor Front Left Sensor - mounted on the edge of the vehicle and tilted by -45 counterclockwise degrees about the x-axis of the robot.
  - `FR` Sensor Front Right Sensor - mounted on the edge of the vehicle and tilted by -45 clockwise degrees about the x-axis of the robot.
 
-     ![ultrasonic sensor](/Documentation/Images/PowerAndSense/HC-SR04.jpg =300x)
+     ![ultrasonic sensor](/Documentation/Images/PowerAndSense/HC-SR04.jpg)
   <p Style="font-size:12px; color:grey; font-type:italic;"><i> Figure 37: Ultra Sonic Sensor - HC-SR04</i></p>
 
 ### Electrical Components Current Needs And Overall Circuit Usage
