@@ -744,7 +744,7 @@ Some cases are visually explained below:
 
 - In this case, a red pillar exist in the current section, and one green pillar is in the next section, which won't be considered:
 
-   ![Event Driven Vision](/Documentation/Images/ComputerVision/Red_Ignore_Green_case.jpg)<p align="center" Style="font-size:12px; color:grey; font-type:italic;"><i> Figure 47:Red pillar in the current section and green pillar in the next section case </i></p>
+   ![Event Driven Vision](/Documentation/Images/ComputerVision/Red_Ignore_Green_Case.jpg)<p align="center" Style="font-size:12px; color:grey; font-type:italic;"><i> Figure 47:Red pillar in the current section and green pillar in the next section case </i></p>
 
 #### Open Challenge Algorithm <a id="OpenChallengeAlgorithm"></a>
 
