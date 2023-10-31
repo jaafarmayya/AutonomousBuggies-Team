@@ -353,7 +353,7 @@ the Arduino Board, Sensors, Servo motor, and DC motor; the second one supplies t
 
    9. Shield Compatibility: The board is designed to be compatible with Arduino shields, which are additional modules that can be stacked on top of the board to extend its functionality. This allows you to easily add features such as Wi-Fi, Bluetooth, motor control, and more.  
 
-     ![Ardunio](/Documentation/Images/PowerAndSense/Arduino.jpg =300x)
+     ![Ardunio](/Documentation/Images/PowerAndSense/Arduino.jpg)
   <p Style="font-size:12px; color:grey; font-type:italic;"><i> Figure 26: Arduino Mega2560</i></p>
 
 - **Raspberry pi 4 Model B:** [[3]](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/) The Raspberry Pi 4 Model B is a popular single-board computer (SBC) developed by the Raspberry Pi Foundation. It is the fourth generation of the Raspberry Pi series and offers significant improvements over its predecessors. The Raspberry Pi 4 Model B is designed to be a versatile and affordable platform for various applications, including education, prototyping, home automation, media centers, and more. The key features and specifications of the Raspberry Pi 4 Model B:
