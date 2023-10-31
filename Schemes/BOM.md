@@ -1,6 +1,4 @@
 
-</style>
-</head>
 
 <body>
 <h1>Bill of Materials: Autonomous Buggies's Vehicle</h1>
