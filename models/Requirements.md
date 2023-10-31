@@ -1,1 +1,1 @@
-The chassis design with the extension .io can be opened using the stud.io program. The part designs as well as the assembly of the (coupler, side and seiling cover)  designs can be opened using CATIA V5 program.
+The chassis design with the extension .io can be opened using the stud.io program. The part designs as well as the assembly of the (coupler, side and seiling cover)  designs can be opened using CATIA V5 program and SolidWorks.
