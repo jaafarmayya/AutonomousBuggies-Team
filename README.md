@@ -724,12 +724,11 @@ After finishing the processing, only one signal is sent to arduino and image cap
 Some cases are visually explained below:
  - In this case two green pillars are located in the current section, so they will be both considered:
 
-   ![Event Driven Vision](/Documentation/Images/ComputerVision/Green_Green_Case.jpg)<p align="center" Style="font-size:12px; color:grey; font-type:italic;"><i> Figure 42:Two green pillars case </i></p>
+   ![Event Driven Vision](/Documentation/Images/ComputerVision/Green_Green_case.jpg)<p align="center" Style="font-size:12px; color:grey; font-type:italic;"><i> Figure 42:Two green pillars case </i></p>
 
  - In this case two red pillars are located in the current section, so they will be both considered:
-<img src="/Documentation/Images/ComputerVision/Red_Red_Case.jpg">
 
-   <p align="center" Style="font-size:12px; color:grey; font-type:italic;"><i> Figure 43:Two red pillars case </i></p>
+   ![Event Driven Vision](/Documentation/Images/ComputerVision/Red_Red_case.jpg)<p align="center" Style="font-size:12px; color:grey; font-type:italic;"><i> Figure 43:Two red pillars case </i></p>
 
  - In this case only one green pillar is located in the current section:
 
